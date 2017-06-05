@@ -1,5 +1,5 @@
 # Routes
 # This file defines all application routes (Higher priority routes first)
 
-GET     /                               controllers.Application.index(path = "/")
-GET     /$path<.+>                      controllers.Application.index(path)
+GET     /                               com.ringohub.controllers.Application.index(path = "/")
+GET     /$path<.+>                      com.ringohub.controllers.Application.index(path)

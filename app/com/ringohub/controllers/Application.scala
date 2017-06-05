@@ -1,4 +1,4 @@
-package controllers
+package com.ringohub.controllers
 
 import javax.inject._
 
